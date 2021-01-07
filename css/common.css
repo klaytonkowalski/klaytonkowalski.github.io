@@ -1,0 +1,178 @@
+/****************/
+/* DEPENDENCIES */
+/****************/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/***********/
+/* GENERAL */
+/***********/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #35343a;
+    color: #cbcbcb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+strong {
+    color: #d4aa56;
+}
+
+h1, h2 {
+    color: #ffffff;
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 1px;
+    text-shadow: 0 5px 5px #181818;
+}
+
+p, figcaption {
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+/**********/
+/* TOPNAV */
+/**********/
+
+.topnav ul {
+    border-bottom: 1px solid #404040;
+    list-style-type: none;
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #404040;
+}
+
+/**********/
+/* MEDIAN */
+/**********/
+
+.median {
+    border-top: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+    height: 32px;
+    background-color: #202020;
+    margin: 32px 0;
+}
+
+/***********/
+/* CONTENT */
+/***********/
+
+.content {
+    text-align: center;
+}
+
+.primary {
+    margin: 0 32px;
+}
+
+.primary h1 {
+    margin-top: 88px;
+    font-size: 64px;
+}
+
+.primary p {
+    font-style: italic;
+    font-size: 24px;
+}
+
+.primary img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 64px;
+}
+
+.secondary {
+    margin: 0 32px;
+}
+
+.secondary h2 {
+    font-size: 48px;
+}
+
+.secondary figure {
+    width: calc(min(100% - 32px, 1024px));
+    padding: 16px 16px 4px 16px;
+    display: inline-block;
+    border: 2px solid #202020;
+    border-radius: 16px;
+}
+
+.secondary img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 16px;
+    border-bottom: 4px dotted #000000;
+    margin-bottom: 16px;
+}
+
+.secondary a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #d4aa56;
+}
+
+.secondary a:hover {
+    text-decoration: underline;
+}
+
+/*************/
+/* BOTTOMNAV */
+/*************/
+
+.bottomnav {
+    margin: 0 32px;
+}
+
+.bottomnav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.bottomnav a {
+    display: inline-block;
+}
+
+.bottomnav li {
+    display: inline;
+}
+
+.bottomnav img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #202020;
+    border-radius: 16px;
+}
+
+/**********/
+/* FOOTER */
+/**********/
+
+.footer {
+    text-align: center;
+    margin-bottom: 32px;
+}
