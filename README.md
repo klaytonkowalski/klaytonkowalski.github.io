@@ -1,2 +1,1 @@
-# My Website
-https://klaytonkowalski.github.io/
+# klaytonkowalski.github.io
